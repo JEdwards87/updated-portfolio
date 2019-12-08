@@ -1,0 +1,67 @@
+#top, #bottom, #left, #right {
+    background: white;
+    position: fixed;
+}
+
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: 30px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+@media
+/* Phones */
+
+only screen and (max-width: 500px),
+/* Tablets */
+
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #top, #bottom, #left, #right {
+        display: none;
+    }
+}
+
+.bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar-item {
+    font-family: 'Roboto Mono', monospace;
+}
+.splash-img {
+    max-height: 100%;
+    display: block;
+}
+.content1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 22px;
+}
