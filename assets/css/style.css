@@ -8,6 +8,9 @@ body {
 .box {
     padding: 0px;
 }
+#bottom {
+    z-index: 5;
+}
 
 .frame {
     box-sizing: content-box;
