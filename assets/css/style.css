@@ -1,3 +1,45 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+.column {
+    padding: 0px;
+}
+.box {
+    padding: 0px;
+}
+
+.frame {
+    box-sizing: content-box;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.name {
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(25px + .5vw);
+    padding: 0px;
+    margin-left: 50px;
+}
+
+.top-menu {
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(15px + .5vw);
+    padding: 0px;
+    margin-right: 50px;
+}
+.gallery-buffer {
+    margin-top: 200px;
+}
+
+/* body border */
+
 #top, #bottom, #left, #right {
     background: white;
     position: fixed;
@@ -6,7 +48,7 @@
 #left, #right {
     top: 0;
     bottom: 0;
-    width: 30px;
+    width: 50px;
 }
 
 #left {
@@ -20,7 +62,7 @@
 #top, #bottom {
     left: 0;
     right: 0;
-    height: 30px;
+    height: 50px;
 }
 
 #top {
@@ -31,17 +73,7 @@
     bottom: 0;
 }
 
-@media
-/* Phones */
-
-only screen and (max-width: 500px),
-/* Tablets */
-
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    #top, #bottom, #left, #right {
-        display: none;
-    }
-}
+/* first content area */
 
 .bg-img {
     background-position: center center;
@@ -49,19 +81,163 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
+    margin-right: 50px;
+    margin-left: 50px
 }
-.navbar-brand {
-    font-family: 'Roboto Mono', monospace;
-}
-.navbar-item {
-    font-family: 'Roboto Mono', monospace;
-}
-.splash-img {
+
+.first-img {
     max-height: 100%;
     display: block;
+    box-sizing: content-box;
 }
+
+/* second content area */
+
+.columns {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.first-text {
+    padding: 0px;
+}
+
+/* third content area */
+
+.column-text {
+    margin: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(10px + .5vw);
+}
+
 .content1 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-size: 22px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 2vw;
+    font-family: 'Roboto Mono', monospace;
 }
+
+.picture-box {
+    background-color: #f2f2f2;
+    flex-basis: auto;
+    object-fit: contain;
+}
+.bio {
+    margin-bottom: 200px;
+}
+
+/* fourth content area */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+.responsive-image {
+    max-width: 100%;
+    object-fit: contain;
+    flex-grow: 1;
+    margin: auto;
+}
+.cell img {
+    display: block;
+}
+.gallery {
+    padding: 0px;
+    margin: auto;
+}
+.cell {
+    flex-grow: 1;
+    margin: 25px;
+}
+.contact {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  width: 100%;
+  padding: 50px;
+  background-color: #f2f2f2;
+
+}
+
+
+/* Break point for mobile */
+
+@media(max-width: 767px) {
+    /* heading */
+    .navbar {
+        padding: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .name {
+        font-family: 'Roboto Mono', monospace;
+        font-size: calc(25px + .5vw);
+        padding: 0px;
+        margin-left: 0px;
+    }
+    /* first content area */
+    .bg-img {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #999;
+        margin-right: 0px;
+        margin-left: 0px
+    }
+    .content1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 2vw;
+        font-family: 'Roboto Mono', monospace;
+    }
+    /* second content area */
+
+    .gallery-buffer {
+        margin-top: 100px;
+    }
+
+    /* third content area */
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .columns {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .column {
+        padding: 0px
+    }
+    .first-text {
+        margin: 50px;
+        padding: 0px;
+    }
+    .responsive-image {
+        max-width: 100%;
+        object-fit: contain;
+    }
+   
+    /* fourth content area */
+    
+}
+@media(max-width: 992px) {
+    .gallery-buffer {
+        margin-top: 100px;
+    }
+}
+@media scree and (min-width: 767px) {
+    .cell {
+        width: 50%;
+        margin: auto;
+    }
+}
+.field {
+    margin: auto;
+}
+
