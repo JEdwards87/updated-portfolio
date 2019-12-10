@@ -1,4 +1,6 @@
-As a new web developer I needed to update my portfolio. I have included some of my past projects as exampes of my work as well as links to my githud, linkedin and resume.
+Live Link: https://jedwards87.github.io/updated-portfolio/
+
+As a new web developer I needed to update my portfolio. I have included some of my past projects as exampes of my work as well as links to my github, linkedin and resume.
 
 
 ![image](https://user-images.githubusercontent.com/57024833/70496700-26881f00-1ad6-11ea-81a9-44f6b962ce36.png)
