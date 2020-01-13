@@ -1,0 +1,9 @@
+    Portfolio does not contain links to GitHub profile, LinkedIn Profile, and Resume PDF - Your resume downloads a .docx file which I can't open since I don't have word.
+    Each project is not listed with title, deployment URL, GitHub URL, and a screenshot - You just have screenshots. You need to add links to both the deployed URL and GitHub URL
+    GitHub profile does not contain real photo, bio, location, email, and link to deployed portfolio - You don't have any of your bio information filled out on GitHub
+    GitHub profile does not have at least 2-3 projects pinned to the top - These should be projects that you are proud of and showcase your code. Right now, it's just repos that you visit frequently, not really showcasing anything.
+    Each pinned project does not have a README containing project descriptions, screenshots, and links to deployed applications - You have no pinned projects. See above.
+    You should be following a few classmates on GitHub - You should be following your classmates on github.
+    Resume could me more concise and tailored for jobs in web development - Couldn't open your resume to even find this out. Make it a PDF please!
+    LinkedIn profile does not have strong bio statement, professional photo, and links to GitHub and portfolio - Link to your other accounts! This is important for recruiters to easily navigate and learn about you.
+    The bio section of your portfolio contains Lorem Ipsum. Remember this is your actual portfolio that employers will be looking at. This looks like an unfinished site.
