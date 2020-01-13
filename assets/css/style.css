@@ -97,6 +97,7 @@ body {
 .columns {
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 0px;
     
 }
 
@@ -230,6 +231,10 @@ body {
 @media(max-width: 992px) {
     .gallery-buffer {
         margin-top: 100px;
+    }
+    .cell {
+        flex-grow: 1;
+        margin: 0px;
     }
 }
 @media scree and (min-width: 767px) {
