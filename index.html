@@ -1,132 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="ie=edge" http-equiv="X-UA-Compatible">
-        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css" rel="stylesheet">
-        <link href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-        <title>Document</title>
-    </head>
-    <body>
-        <div
-            class="frame has-navbar-fixed-top">
-            <!-- navbar -->
-            <nav aria-label="main navigation" class="navbar is-fixed-top" role="navigation">
-                <div class="navbar-brand">
-                    <div class="navbar-item name">
-                        Jesse Edwards
-                    </div>
-                </div>
-                <div class="navbar-menu" id="navbarBasicExample">
-                    <div class="navbar-start"></div>
-                    <div class="navbar-end top-menu">
-                        <a class="navbar-item" href="#about_section">
-                            About
-                        </a>
-                        <a class="navbar-item" href="#portfolio_section">
-                            Portfolio
-                        </a>
-                        <a class="navbar-item" href="#contact_section">
-                            Contact
-                        </a>
-                    </div>
-                </div>
-            </nav>
-            <div id="bottom"></div>
-            <div class="bg-img">
-                <img class="first-img" src="assets/images/jesse_edwards_home_01@2x.png">
-            </div>
-            <div class="columns is-centered">
-                <div class="column is-three-fifths is-flex first-text">
-                    <a name="about_section"></a>
-                    <div class="content1 box has-text-centered is-shadowless box">
-                        Jesse Edwards is a Twin Cities based web developer with experience in HTML, CSS, Javascript, Jquery, and Node.js
-                    </div>
-                </div>
-            </div>
-            <div class="columns reverse-columns">
-                <div class="column picture-box is-two-thirds">
-                    <div class="column-text level is-mobile">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-                </div>
-                <div class="column level is-mobile image is5by5">
-                    <img src="assets/images/jesse_edwards_s.jpeg">
-                </div>
-            </div>
-            <div class="columns gallery-buffer">
-                <a name="portfolio_section"></a>
-                <div class="column gallery">
-                    <div class="container gallery is-flex is-horizontal-center">
-                        <div class="grid">
-                            <a class="cell" href="https://ryanellingson.github.io/Squirtle-Squad/">
-                                <img class="responsive-image" src="assets/images/brew_cruise_jesse_edwards.jpg"/>
-                            </a>
-                            <a class="cell" href="https://ryanellingson.github.io/Squirtle-Squad/">
-                                <img class="responsive-image" src="assets/images/iphone_brew_cruze_jesse_edwards_dark.jpg"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columns gallery">
-                <div class="column gallery">
-                    <div class="container gallery is-flex is-horizontal-center">
-                        <div class="grid">
-                            <a class="cell" href="https://jedwards87.github.io/work-day-scheduler/">
-                                <img class="responsive-image" src="assets/images/work_day_sceduler_jesse_edwards.jpg"/>
-                            </a>
-                            <a class="cell" href="https://jedwards87.github.io/bootstrap/">
-                                <img class="responsive-image" src="assets/images/portfolio_ipad_jesse_edwards.jpg"/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columns gallery">
-                <div class="column gallery">
-                    <a name="contact_section"></a>
-                    <div class="contact">
-                        <form class="is-flex">
-                            <div class="field">
-                                <label for="fname">First Name</label>
-                                <input id="fname" name="firstname" placeholder="Your name.." type="text">
-                                <br>
-                                <label for="lname">Last Name</label>
-                                <input id="lname" name="lastname" placeholder="Your last name.." type="text">
-                                <br>
-                                <label for="lname">Last Name</label>
-                                <input id="lname" name="lastname" placeholder="Your last name.." type="text">
-                                <br>
-                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px, width:170px"></textarea>
-                                <br>
-                                <input type="submit" value="Submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link
+      crossorigin="anonymous"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>Jesse Edwards</title>
+  </head>
+  <body>
+    <div class="frame has-navbar-fixed-top">
+      <!-- navbar -->
+      <nav
+        aria-label="main navigation"
+        class="navbar is-fixed-top"
+        role="navigation"
+      >
+        <div class="navbar-brand">
+          <div class="navbar-item name">
+            Jesse Edwards
+          </div>
         </div>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <a href="https://www.linkedin.com/in/jesse-edwards-89a85867/">
-                    Linkedin
-                </a>
-                <a href="https://github.com/JEdwards87">
-                    github
-                </a>
-                <a href="assets/Resume_JEdwards.docx">
-                    Resume
-                </a>
+        <div class="navbar-menu" id="navbarBasicExample">
+          <div class="navbar-start"></div>
+          <div class="navbar-end top-menu">
+            <a class="navbar-item" href="#about_section">
+              About
+            </a>
+            <a class="navbar-item" href="#portfolio_section">
+              Portfolio
+            </a>
+            <a class="navbar-item" href="#contact_section">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div id="bottom"></div>
+      <div class="bg-img">
+        <img
+          class="first-img"
+          src="assets/images/jesse_edwards_home_01@2x.png"
+        />
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-three-fifths is-flex first-text">
+          <a name="about_section"></a>
+          <div class="content1 box has-text-centered is-shadowless box">
+            Jesse Edwards is a Twin Cities based web developer with experience
+            in HTML, CSS, Javascript, Jquery, and Node.js
+          </div>
+        </div>
+      </div>
+      <div class="columns reverse-columns">
+        <div class="column picture-box is-two-thirds">
+          <div class="column-text level is-mobile">
+            Hello, I am Jesse Edwards. I am studying to be a full stack web
+            developer. I am also well versed in robotics and hope to start
+            making web aplications for robotics soon. I am currently living in
+            Jordan,MN and have lived in Minnesota my entire life.
+          </div>
+        </div>
+        <div class="column level is-mobile image is5by5">
+          <img src="assets/images/jesse_edwards_s.jpeg" />
+        </div>
+      </div>
+      <div class="columns gallery-buffer">
+        <a name="portfolio_section"></a>
+        <div class="column gallery">
+          <div class="container gallery is-flex is-horizontal-center">
+            <div class="grid">
+              <a
+                class="cell"
+                href="https://ryanellingson.github.io/Squirtle-Squad/"
+              >
+                <h1 class="name has-text-centered">Brew Cruze</h1>
+                <img
+                  class="responsive-image"
+                  src="assets/images/Brew-Cruze.PNG"
+                />
+              </a>
+              <a
+                class="cell"
+                href="https://github.com/JEdwards87/employee-tracker/"
+              >
+                <h1 class="name has-text-centered">Employee Tracker</h1>
+                <img
+                  class="responsive-image"
+                  src="assets/images/Employee-Tracker.PNG"
+                />
+              </a>
             </div>
-        </footer>
-
-        <script src="assets/javascript/script.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    </body>
+          </div>
+        </div>
+      </div>
+      <div class="columns gallery">
+        <div class="column gallery">
+          <div class="container gallery is-flex is-horizontal-center">
+            <div class="grid">
+              <a
+                class="cell"
+                href="https://github.com/JEdwards87/work-day-scheduler/"
+              >
+                <h1 class="name has-text-centered">
+                  Work Day Scheduler
+                </h1>
+                <img
+                  class="responsive-image"
+                  src="assets/images/Work-Scheduler.png"
+                />
+              </a>
+              <a
+                class="cell"
+                href="https://github.com/JEdwards87/meeting-finder/"
+              >
+                <h1 class="name has-text-centered">Meeting Finder</h1>
+                <img
+                  class="responsive-image"
+                  src="assets/images/Meeting-Finder.PNG"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns gallery">
+        <div class="column gallery">
+          <a name="contact_section"></a>
+          <div class="contact">
+            <form class="is-flex">
+              <div class="field is-vcentered">
+                <h1 class="gallery-img">Jesse Edwards</h1>
+                <br>
+                <h2 class="gallery-img">Phone: (555)123-4567</h2>
+                <br>
+                <h2 class="gallery-img">Email: jesse.david.edwards.1987@gmail.com</h2>
+                <br>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <a href="https://www.linkedin.com/in/jesse-edwards-89a85867/">
+          Linkedin
+        </a>
+        |
+        <a href="https://github.com/JEdwards87">
+          GitHub
+        </a>
+        |
+        <a href="Resume_JEdwards_update.pdf">
+          Resume
+        </a>
+      </div>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </body>
 </html>
